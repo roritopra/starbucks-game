@@ -8,13 +8,22 @@
     <link rel="stylesheet" href="./screens.css">
 </head>
 <body>
-    <div class="container">
+    
+
+    <div class="container-imagen">
+
         <div id="pantalla1">
             <img src="../images/Scan.png" alt="">
+            <button onclick="mostrarPantalla2()">Mostrar pantalla 2</button>
         </div>
-        <div id="pantalla2">Contenido de la pantalla 2</div>
-        <div id="pantalla3">Contenido de la pantalla 3</div>
+
+        <div id="pantalla2" style="display: none;">
+            <img src="../images/How to play.png" alt="">
+            <button onclick="mostrarPantalla1()">Mostrar pantalla 1</button>
+        </div>
+        
     </div>
+
     <script src="./script.js"></script>
 </body>
 </html>

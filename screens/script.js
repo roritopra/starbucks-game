@@ -1,6 +1,10 @@
-const miBoton = document.querySelector('#mi-boton');
-miBoton.addEventListener('click', function() {
-  window.location.href = 'index2.html';
-  console.log('click')
-});
+function mostrarPantalla2() {
+  document.getElementById("pantalla1").style.display = "none";
+  document.getElementById("pantalla2").style.display = "block";
+}
+
+function mostrarPantalla1() {
+  document.getElementById("pantalla2").style.display = "none";
+  document.getElementById("pantalla1").style.display = "block";
+}
 

@@ -1,3 +1,13 @@
+function mostrarPantalla2() {
+    document.getElementById("pantalla1").style.display = "none";
+    document.getElementById("pantalla2").style.display = "block";
+  }
+  
+  function mostrarPantalla1() {
+    document.getElementById("pantalla2").style.display = "none";
+    document.getElementById("pantalla1").style.display = "block";
+  }
+
 //****** GAME LOOP, Inician el juego cuando todas las imagenes se hayan cargado y programa la funcion update pa que se llame ********//
 
 var time = new Date();
