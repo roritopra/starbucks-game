@@ -194,3 +194,7 @@ function  GameOver() {
     gameOver.style.display = "block";
 }
 
+function getJob() {
+
+}
+
